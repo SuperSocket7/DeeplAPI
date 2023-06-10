@@ -1,5 +1,5 @@
 import DeepL
 
-result = DeepL.translate(text="これはテストです。", source_lang="JA", target_lang="EN")
+result = DeepL.translate(text="This is a test.", source_lang="EN", target_lang="JA")
 
 print(result)
